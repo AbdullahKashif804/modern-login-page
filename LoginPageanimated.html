@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="relative min-h-screen w-full overflow-x-hidden">
+        <div class="absolute bg-[url('bg-project6.jpg')] bg-cover bg-center inset-0"></div>
+        <div class="absolute bg-black/40 inset-0"></div>
+        <div class="relative flex justify-center items-center min-h-screen">
+            <div class=" w-[320px] md:w-[720px] lg:w-[900px] lg:h-[500px] bg-white/60 flex rounded-2xl">
+                <div class="left w-[80%] md:w-[60%] lg:w-[40%] ml-8 mt-6 mb-6 bg-white/60 flex flex-col px-8 py-8 justify-center rounded-2xl text-black ">
+                    <img src="Axiscyber.png" class="w-12 h-12">
+                    <h1 class="text-3xl font-bold py-2">Login</h1>
+                    <p class="py-1 font-bold">Email</p>
+                    <input type="text" placeholder="Username@gmail.com" class="px-1 py-1 border rounded-md">
+                    <p class="py-1 font-bold">Password</p>
+                    <div class="relative w-80">
+                        <i class="fa-regular fa-eye absolute left-40 md:left-72 lg:left-[260px] top-2.5 text-gray-400"></i>
+                        <input type="password" placeholder="Password" class="px-1 py-1 border w-[192px] md:w-[320px] lg:w-[295px] rounded-md">
+                    </div>    
+                    <p class="text-end py-1 text-purple-900 cursor-pointer">Forgot Password?</p>
+                    <button class="bg-purple-900 py-1 mt-4 border rounded-md">Sign in</button>
+                    <p class="text-center py-1 mt-2 cursor-pointer">or continue with</p>
+                    <div class="logo flex justify-center gap-4 py-1">
+                        <i class="fa-brands fa-google bg-white w-14 h-7 flex justify-center items-center border rounded-full "></i>
+                        <i class="fa-brands fa-github bg-white w-14 h-7 flex justify-center items-center border rounded-full"></i>
+                        <i class="fa-brands fa-facebook bg-white w-14 h-7 flex justify-center items-center border rounded-full text-blue-700"></i>
+                    </div>
+                    <div class=" text-[8px] justify-center mt-6 flex md:text-[10px] gap-1 lg:text-sm">
+                        <p>Don't have an account yet?</p>
+                        <p class="text-purple-900 cursor-pointer font-bold">Register for free</p>
+                    </div>       
+                </div>
+                    <div class="hidden md:block md:w-3/5 ">
+                        <img src="project6logoright.png" class="h-96 w-96 lg:h-full lg:w-full  object-contain ">
+                    </div>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>
